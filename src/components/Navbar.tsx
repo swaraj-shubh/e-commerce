@@ -28,6 +28,7 @@ export default function Navbar() {
     { href: '/cart', label: 'Cart' },
     { href: '/orders', label: 'Orders' },
     { href: '/dashboard', label: 'Dashboard' },
+    { href: '/add-product', label: 'Add Product' },
   ];
 
   return (

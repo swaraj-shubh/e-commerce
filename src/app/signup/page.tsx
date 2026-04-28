@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
-import Navbar from '@/components/Navbar';
+// import Navbar from '@/components/Navbar';
 
 export default function Signup() {
   const router = useRouter();
@@ -38,7 +38,7 @@ export default function Signup() {
 
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <div className="min-h-screen flex items-center justify-center bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
         <div className="max-w-md w-full space-y-8">
           <div>

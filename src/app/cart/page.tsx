@@ -1,7 +1,7 @@
 'use client';
 import { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
-import Navbar from '@/components/Navbar';
+// import Navbar from '@/components/Navbar';
 
 export default function Cart() {
   const router = useRouter();
@@ -72,7 +72,7 @@ export default function Cart() {
   if (loading) {
     return (
       <>
-        <Navbar />
+        {/* <Navbar /> */}
         <div className="flex justify-center items-center h-64">
           <div className="text-gray-500">Loading your cart...</div>
         </div>
@@ -82,7 +82,7 @@ export default function Cart() {
 
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <h2 className="text-3xl font-bold text-gray-900 mb-8">Shopping Cart</h2>
         
