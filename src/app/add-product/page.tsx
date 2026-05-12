@@ -177,7 +177,7 @@ export default function AddProduct() {
                   <div className="bg-white rounded-xl shadow-lg overflow-hidden">
                     <div className="bg-gradient-to-r from-gray-700 to-gray-800 px-4 sm:px-6 py-2 sm:py-3">
                       <h3 className="text-sm sm:text-base font-semibold text-white">Live Preview</h3>
-                    </div>
+                    </div>npx create-next-app@latest web --typescript --tailwind --eslint --src-dir --app
                     <div className="p-4 sm:p-5">
                       <div className="space-y-2">
                         <div className="bg-gray-50 rounded-lg p-3">
